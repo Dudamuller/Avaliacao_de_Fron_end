@@ -1,50 +1,77 @@
-    .Cabeçalho{
+     header{
         text-align: center;
         margin-top: 30px;
         font-family: 'Times New Roman', sans-serif;
-        background-color: #c2af5e;
-        font-size: 50px;
+        background-color: #c2AF5E;
+        font-size: 40px;
         color: #2d2000;
+        padding: 5%;       
+        
     }
-    .cardapio{
-        font-size: 30px;
-        background-color: #c2af5e;
+    .servico{
+        text-align: right;
+    }
+    a{ 
+        font-size: 25px;
         color: #2d2000;
-        text-align: left;
-        padding: 50px;
+        text-decoration: none;
     }
-    .servicos1{
+    a:hover{
+        text-decoration: underline;
+    }
+    .cardapio{ 
+        text-decoration: none;
+        padding: 5%;
         text-align: center;
-        margin-top: 30px;
-        font-family: 'Times New Roman', sans-serif;
-        font-size: 20px;
-        background-color: #c2af5e;
+        background-color: #c2AF5E;
+        margin-top: -40px;
         color: #2d2000;
-        padding: 50px;
-    }
-    .servicos2{
-        text-align: center ;
-        margin-top: 30px;
-        font-family: 'Times New Roman', sans-serif;
-        font-size: 20px;
-        background-color: #c2af5e;
-        color: #2d2000;
-        padding: 20px;
-    }
-    .cafe_colonial{
-        width: 300px;
-        padding: 20px;
-       align-items: right;
-       margin-left: 1500px;
-    }
-    .bolos_especiais{
-        width: 300px;
-        padding: 20px;
-       align-items: right;
-       margin-left: 1500px;;
+        font-size: 25px;
     }
     .rodape{
-        margin-top: 720px;
+        margin-top: 200px;
         text-align: center;
+        background-color: #c2AF5E;
+        font-size: 20px;
+        padding: 20px;
+        width: 100%;
+    }
+    .cafe_colonial{
+        text-align: center;
+        margin-top: 100px;
+        margin: 40px;
+        font-size: 30px;
+    }
+    .cafe, .bolos{
+        width: 450px;
+        padding: 20px 0;
+        align-items: center;
+    }
+    .bolos_especiais{
+        text-align: center;
+        margin-top: -60px;
+        margin: 40px;
+        font-size: 30px;
+    }
+    main li {
+        display: inline-block;
+        text-align: center;
+        width: 40%;
+        vertical-align: top;
+        margin: 0 1.5%;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        border: 2px solid #000000;
+        border-radius: 10px;
+    }
+    .cafe_colonial:hover{
+        border-color: #c2AF5E;
+        color: #c2AF5E;
+        font-size: 35px;
+    }
+    .bolos_especiais:hover{
+        border-color: #c2AF5E;
+        color: #c2AF5E;
+        font-size: 35px;
     }
     
